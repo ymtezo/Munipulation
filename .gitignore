@@ -1,0 +1,17 @@
+# Logs
+*.log
+
+# npm
+node_modules
+
+# Build
+main.js
+*.js.map
+
+# IDE
+.DS_Store
+.idea
+.vscode
+
+# Compiled output
+dist
