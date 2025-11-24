@@ -1,8 +1,10 @@
 # Logs
 *.log
+npm-debug.log*
 
 # npm
 node_modules
+package-lock.json
 
 # Build
 main.js
@@ -12,6 +14,19 @@ main.js
 .DS_Store
 .idea
 .vscode
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
 
 # Compiled output
 dist
+
+# Test coverage
+coverage
+
+# Temporary files
+*.tmp
+.temp
